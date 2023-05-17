@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <div>
+        <h1>Inserindo vídeo hospedado localmente</h1>
+        <p>Este vídeo está hospedado no próprio servidor, pessima forma de apresentar vídeo</p>
+        <video controls width="560" poster="Imagens/DALL·E 2023-04-25 18.03.32 - Criptomoedas, Café,  Cyberpunk.png" ><!-- adicionando autoplay="loop" ele ínicia e entra em loop-->
+            <source src = "Videos/café.mp4" type="video/mp4">    <!--cada Brownser-->
+            <source src = "Videos/café.m4v" type="video/mp4"><!--utiliza um formato-->
+            <source src = "Videos/café.webm" type="video/webm">    <!--de audio-->
+            <source src = "Videos/café.ogv" type="video/ogg">     <!--diferebte-->
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+        </video>
+    </div>
+    <div>
+        <h1>A forma mais eficiente de postar vídeos no site</h1>
+        <p>apenas linkar com um repositório de vídeos como youtube e Vimeo</p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3m0mNjUG-SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <audio preload="metadata" controls>
+            <source src="Audios/Credo.mp3" type="audio/mpeg"><!--tenta tocar este primeiro-->
+            <source src="Audios/Credo.ogg" type="audio/ogg"><!--depois tenta tocar este -->
+            <source src="Audios/Credo.wav" type="audio/wav"><!--por fim tenta tocar este -->
+            <p>Infelizmente seu navegador não consegue reproduzir o áudio.</p>
+            <a href="Audios/Credo.mp3">Baixe aqui o MP3 </a> enquanto escuta a musica, <a href="https://brave.com/pt-br/download/">baixe um navegador decente</a>
+        </audio>
+    </div>
+    <div>
+        <h1>Imagens dinâmicas</h1>
+        <p>
+            Tente abrir esse site em vários disposiivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador
+        </p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/fotos-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/fotos-m.png" type="image/png">
+            <img src="Imagens/fotos-g.png" alt="Imagem flexivel">
+        </picture>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Work+Sans:ital,wght@1,400;1,500&display=swap'); 
+        
+
+*{/*Configurações Globais*/
+    font: italic bolder 1em "work sans", "sans-serrif";
+    /*height: 100%; */
+}
+
+body{
+    background-image: linear-gradient(75deg, #412a13, #917B66);
+
+}
+
+main{
+    background-color: #bbA58F;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    color: #596F74;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;/*Sublinhado*/
+}
+h2{
+    font-family: 'Cinzel', serif;
+    color: #40555A;
+    font-size: 2em;
+}
+
+p{
+    
+ 
+    text-align: justify;
+    font-weight: lighter; 
+    /*Peso (weight) da fonte
+    as variaçes são números de 100 a 900 ou as palaras "lighter", "normal", "bold", "bolder"
+    font-style: italic;/*itanico Negrito e normal*/
+    
+    /*diz em uma única linha que quer um fonte ítalico, negrito, com tamanho 1 em, */
+ 
+}

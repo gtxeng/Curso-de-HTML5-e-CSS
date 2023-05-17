@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url("../fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+}
+
+:root{
+ --cor1: #c5ebd6;
+ --cor2: #83e1ad;
+ --cor3: #3ddc84;
+ --cor4: #2fa866;
+ --cor5: #1A5C37;
+ --cor6: #063d1e;
+
+ --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+ --fonte-destaque: 'Bebas Neue', cursive;
+ --fonte-android: 'Android', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a.externo::after{
+    content: "\1F517";
+}
+
+html{
+    font-size: medium;
+    font-family: var(--fonte-android)
+
+}
+
+body{
+    background-color:var(--cor1);
+    font-family: var(--fonte-padrão);  
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient( to bottom ,var(--cor3),var(--cor5));
+    text-align: center;
+    
+}
+header  h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    
+       
+}
+
+header p{
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding: 0px 10px 30px 10px;
+    margin: auto;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+}
+
+nav{
+    background-color: var(--cor5);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+nav > a{
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s; 
+
+}
+nav > a:hover{ /*Quando o mouse tiver em cima*/
+    background-color: var(--cor3);
+    color: var(--cor5)
+}
+
+
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px; 
+}
+
+main h2{
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    color: var(--cor5);
+}
+main h3{
+    background-image: linear-gradient( 90deg, var(--cor2), transparent);
+    color: var(--cor5); 
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 10px;
+    
+}
+main img{
+    width: 100%;
+}
+main img.pequena{/*aqui é TAG.CLASSE*/
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+main div.video{
+    background-color: var(--cor6);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+main iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+main p{
+     
+    color: black;
+    font-family: var(--fonte-padrão);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 2rem;
+    line-height: 2rem;  
+
+}
+    
+main a{  
+    background-color: var(--cor1);
+    color:  var(--cor6);  
+    font-weight: bold;     
+    text-decoration: none;
+      
+}
+
+main a:hover{ /*Quando passar o mouse em cima do Link*/
+    text-decoration: underline;
+    color: var(--cor6);
+}
+
+main strong{
+    color: var(--cor6);
+    font-weight: bolder;
+}
+
+aside{
+    background-color: var(--cor2);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+aside h4{
+    color: white;
+    background-color: var(--cor6);
+    margin: -10px -10px 0px -10px;/*com valores negativos a margem cresce para fora
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    */
+    border-radius: 10px 10px 0px 0px;/*cod melhorado*/
+    
+    padding: 10px;
+    width: 100%;
+    
+}
+
+aside p {
+    text-indent: 2rem;
+    color: black;
+}
+aside ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';/*\00A0 da um espaço, entretanto não funciona em todos os navegadores*/
+    text-decoration: underline;
+    padding: 20px;
+}
+
+
+footer{
+    background-color: var(--cor6);
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:var(--cor1)
+}

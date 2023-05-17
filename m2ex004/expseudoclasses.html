@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudo-classe
+            :: = pseudo-elemento
+            > = children
+        */
+        div{
+            display: inline-block;
+            background-color: lightgrey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        
+        div > li{
+            display: none;
+        }
+        div:hover > li{
+            display: block;
+        } 
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{              
+            background-color: yellow;
+        }
+
+        a:visited {
+            color: darkred;
+
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: ' dpois';
+        }
+        a::before{
+            content: 'antes ';w
+        }
+    </style>
+    </head>
+    <body>
+         <div id="01">Menu
+             <li><a href="Página1.html">Item 01</a></li>
+             <li><a href="www.google.com.br">Item 02</a></li>
+             <li><a href="www.google.com.br">Item 03</a></li>
+             <li><a href="www.google.com.br">Item 04</a></li>
+             <li><a href="www.google.com.br">Item 05</a></li>
+         </div>
+        
+         <div id="02">02</div>
+         <div id="03">03</div>
+    </body>
+</html>

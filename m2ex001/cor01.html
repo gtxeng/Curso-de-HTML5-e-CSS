@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente</title>
+    <style>
+        *{/*Configuração Global das CSS*/
+            height: 100%;
+        }
+        body{
+            /* DEGRADE SIMPLES
+            background-image: linear-gradient(160deg, blue, white);/*grau, corInicio, cor fim */
+            
+             /* DEGRADE Linear de Multiplas cores
+            background-image: linear-gradient(180deg, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579);/*grau, corI, cor1, cor...,corfim:*/
+
+            /* DEGRADE RADIAL de Multiplas cores
+            background-image: radial-gradient(circle, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579);
+            /*radial circle*/
+             /* DEGRADE Linear de Multiplas cores*/
+            background-image: linear-gradient(-90deg, #3198E2, 40%, #6D59C0, #B93590, #E33F5F, #FDD579);
+            /*Além das cores da para usar ângulos negativos para inverter as cores, e mudar o percentual de cor predominante na tela*/
+
+
+            background-attachment: fixed;/*Pro fundo ficar fixo e rolar junto da página*/
+            
+           
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Gradientes</h1>
+</body>
+</html>
