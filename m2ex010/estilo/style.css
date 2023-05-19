@@ -36,7 +36,7 @@ html{
 }
 
 body{
-    background-color:var(--cor0);
+    background-color:var(--cor1);
     font-family: var(--fonte-padrão);  
 }
 
@@ -69,7 +69,7 @@ header p{
 }
 
 nav{
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     width: 100%;
     padding: 10px 0px 10px 0px;
 }
@@ -85,7 +85,7 @@ nav > a{
 }
 nav > a:hover{ /*Quando o mouse tiver em cima*/
     background-color: var(--cor3);
-    color: var(--cor5)
+    color: var(--cor6)
 }
 
 
@@ -104,11 +104,11 @@ main{
 main h2{
     font-family: var(--fonte-android);
     font-weight: normal;
-    color: var(--cor5);
+    color: var(--cor6);
 }
 main h3{
     background-image: linear-gradient( 90deg, var(--cor2), transparent);
-    color: var(--cor5); 
+    color: var(--cor6); 
     font-family: var(--fonte-android);
     font-size: 1.3em;
     font-weight: normal;
@@ -154,7 +154,7 @@ main p{
     
 main a{  
     background-color: var(--cor1);
-    color:  var(--cor6);  
+color:  var(--cor6);  
     font-weight: bold;     
     text-decoration: none;
       
