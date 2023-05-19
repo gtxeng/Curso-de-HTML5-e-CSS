@@ -36,7 +36,7 @@ html{
 }
 
 body{
-    background-color:var(--cor1);
+    background-color:var(--cor0);
     font-family: var(--fonte-padrão);  
 }
 
@@ -64,7 +64,7 @@ header p{
     max-width: 600px;
     padding: 0px 10px 30px 10px;
     margin: auto;
-        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
 }
 
 nav{
