@@ -42,7 +42,7 @@ body{
 
 header{
     width: 100%;
-    background-image: linear-gradient( to bottom ,var(--cor3),var(--cor5));
+    background-image: linear-gradient( to bottom ,var(--cor3),var(--cor6));
     text-align: center;
     
 }
