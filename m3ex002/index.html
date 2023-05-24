@@ -6,76 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens de fundo posicionadas</title>
     <style>
-        div.block{
-           height: 300px; 
-           width: 600px;
-           border: 1px solid black;
-           margin: 10px;
-           border-radius: 10px;
-           background-image: url(./imagem/20180607_142617.jpg);
-        }
-        div.coluna{
-            display: inline-block;
-        }
-        div#q1{
-            background-position: left top;
-        }
-        div#q2{
-            background-position: left center;
-        }
-        div#q3{
-            background-position: left bottom;
-        }
-        div#q4{
-            background-position: center top;
-        }
-        div#q5{
+       body{
+            height: 100%;
+            background-color: black;
+            background-image: url("imagem/20180607_142617.jpg");
             background-position: center center;
-        }
-        div#q6{
-            background-position: center bottom;
-        }
-        div#q7{
-            background-position: right top;
-        }
-        div#q8{
-            background-position: right center;
-        }
-        div#q9{
-            background-position: right bottom;
-        }
+            background-repeat: no-repeat;
+            background-size: cover;
 
+       }
+       main{
+            height: 100%;
+            background-color:white;
+            width: 400px;
+       }
 
     </style>
 
 </head>
 <body>
-    
-    <div class="coluna" background-color="blue">
-        <div class="block" id="q1">
-        </div>
-        <div class="block" id="q2">
-        </div>
-        <div class="block" id="q3">
-        </div> 
-    </div>
-
-    <div class="coluna">
-        <div class="block" id="q4">
-        </div>
-        <div class="block" id="q5">
-        </div>
-        <div class="block" id="q6">
-        </div>
-    </div>
-    <div class="coluna">
-        <div class="block" id="q7">
-        </div>
-        <div class="block" id="q8">
-        </div>
-        <div class="block" id="q9">
-        </div>
-    </div>
-
+    <main>
+        <h1>Teste</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore sunt repudiandae iste cum, id dolorum exercitationem similique quis quisquam possimus aliquid quibusdam sapiente obcaecati perspiciatis, eveniet corrupti debitis dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nesciunt optio consectetur ullam nostrum. Atque laudantium, dolorum earum at veritatis qui laboriosam. Delectus consequuntur natus aperiam? Aliquid consequuntur enim non?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae aut veritatis, perspiciatis consequatur maxime tenetur non! Repellendus sapiente, quae laborum eius voluptas voluptatem animi consequuntur ullam nisi quis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eveniet cupiditate quae? Atque commodi dolorum natus laudantium harum dolore, perferendis quaerat id laboriosam, assumenda animi a porro praesentium dolorem culpa.</p>
+    </main>
 </body>
 </html>
