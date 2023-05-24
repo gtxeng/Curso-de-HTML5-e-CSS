@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo posicionadas</title>
+    <style>
+        div.block{
+           height: 300px; 
+           width: 600px;
+           border: 1px solid black;
+           margin: 10px;
+           border-radius: 10px;
+           background-image: url(./imagem/20180607_142617.jpg);
+        }
+        div.coluna{
+            display: inline-block;
+        }
+        div#q1{
+            background-position: left top;
+        }
+        div#q2{
+            background-position: left center;
+        }
+        div#q3{
+            background-position: left bottom;
+        }
+        div#q4{
+            background-position: center top;
+        }
+        div#q5{
+            background-position: center center;
+        }
+        div#q6{
+            background-position: center bottom;
+        }
+        div#q7{
+            background-position: right top;
+        }
+        div#q8{
+            background-position: right center;
+        }
+        div#q9{
+            background-position: right bottom;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="coluna" background-color="blue">
+        <div class="block" id="q1">
+        </div>
+        <div class="block" id="q2">
+        </div>
+        <div class="block" id="q3">
+        </div> 
+    </div>
+
+    <div class="coluna">
+        <div class="block" id="q4">
+        </div>
+        <div class="block" id="q5">
+        </div>
+        <div class="block" id="q6">
+        </div>
+    </div>
+    <div class="coluna">
+        <div class="block" id="q7">
+        </div>
+        <div class="block" id="q8">
+        </div>
+        <div class="block" id="q9">
+        </div>
+    </div>
+
+</body>
+</html>
