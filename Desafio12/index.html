@@ -5,99 +5,216 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surreal Café</title>
-    <style>
-        @charset "UTF-8";
-
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap');
-        
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        :root{
-            --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
-            --fonte-destaque:'Josefin Sans', sans-serif;
-        }
-        
-        header{
-            background-color: black;
-            background-image: url("imagens/Cabeçalho.png");
-            background-attachment: scroll;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            text-align: center;
-            height: 300px;
-
-        }
-        header > h1{
-            color: white;
-            font-family: var(--fonte-destaque);
-            margin: auto;
-            padding: 20px;
-
-        }
-        nav{
-            background-color: black;
-            background-image: url("imagens/imgMenu.png");
-            text-align: center;
-        }
-        nav > a{
-            color: white;
-            font-family: var(--fonte-destaque);
-            font-weight: bold;
-            text-decoration: none;
-            padding: 0px 15px 0px 15px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <nav>
+            <a href="#">Cafés</a>
+            <a href="#">Utensilhos</a>
+            <a href="#">Aprenda</a>
+            <a href="#">Sobre Nós</a>  
+        </nav>
         <h1>Surreal Café</h1>
-       
+        <p>Café de extrema qualidade</p>
+        <p>
+            Nossos cafés são uma verdadeira experiência sensorial, com qualidade excepcional que irá encantar seu paladar.<br>
+            Trabalhamos apenas com cafés especiais de pontuação SCA superior de 80, garantindo que cada xícara seja uma experiência única e de extrema qualidade.<br>
+             Garantindo o máximo prazer ao apreciador de café.
+        </p>
     </header>
-    <nav>
-        <a href="#">Cafés</a>
-        <a href="#">Utensilhos</a>
-        <a href="#">Aprenda</a>
-        <a href="#">Sobre Nós</a>  
-    </nav>
+    
     <main>
-        <section>
+        <p id="alerta"> 
+            <strong>Advertência:</strong> Aviso aos amantes de café! Após provar nossos cafés especiais, é possível que você não consiga voltar a tomar o café comercial. A qualidade e o sabor excepcionais dos nossos grãos podem elevar seus padrões de exigência, fazendo com que o café cotidiano pareça simplesmente insatisfatório. Experimente por sua conta e risco!                            
+        </p>
+    
+        <section class="normal">
+            <h1>
+                Conheça nossos 
+            </h1>
             <h2>
-                Titulo
+                Acaiá
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit voluptatibus dolorum iure deserunt autem labore quod necessitatibus harum, cumque cupiditate aperiam neque, at ea alias possimus nobis quia dolore?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus odit eligendi ipsum atque nulla? Incidunt nostrum placeat suscipit maxime illo, reprehenderit assumenda, obcaecati vel aspernatur officia temporibus, odit ab inventore!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia expedita culpa itaque labore? Saepe nulla eum commodi! Saepe aliquid ab consectetur consequatur excepturi velit aliquam sit provident magnam cum.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis porro explicabo, fugit, itaque voluptatibus cum exercitationem corporis consectetur quas alias minima quidem. Qui quo exercitationem reprehenderit minus asperiores? Animi, minus!
+            <p>             
+                O café Acaiá é uma variedade exclusiva cultivada com carinho e dedicação pela produtora Simone Carneiro de Morais, no sítio Dona Quitéria, na Serra da Mantiqueira, Minas Gerais. Esse café de alta qualidade oferece um sabor único e uma experiência culinária inesquecível. Cultivado de forma sustentável, o café Acaiá é valorizado pela sua qualidade excepcional, tornando-se uma escolha especial para os amantes da bebida. Desfrute desse café delicioso e aprecie o cuidado e a dedicação dedicados a cada xícara.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 85 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Avelã caramelizada, aromas de chocolate com rapadura, acidez levemente cítrica, corpo médio, doçura intensa finalização longa e agradável</li>
+                    <li><strong>Produtor:</strong> Simone Carneiro de Morais</li>
+                    <li><strong>Sítio:</strong> Dona Quitéria</li>
+                    <li><strong>Região:</strong> Cambuquira /MG - Serra da Mantiqueira</li>
+                    <li><strong>Altitude:</strong> 1200m</li>
+                    <li><strong>Processo:</strong> Cereja Descascada</li>
+                    <li><strong>Terreiro:</strong> Suspenso Coberto</li>
+                    <li><strong>Colheita:</strong> Seletiva e Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+                </ul>
+            </p>
+            <h2>
+                Arara
+            </h2>
+            <p>
+                <h3>Descrição</h3>
+                <ul>
+                     <li><strong>Pontuação:</strong> 86 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Flagrância chocolate ao leite e caramelo, sabor de mel, mamão, rapadura, chocolate ao leite. finalização longa e marcante.</li>
+                    <li><strong>Produtor:</strong> Bruno Lima</li>
+                    <li><strong> Sítio:</strong> Fazenda Limeira</li>
+                    <li><strong>Região:</strong> Caparaó - Manhumirim/MG</li>
+                    <li><strong>Altitude:</strong> 1000m</li>
+                    <li><strong>Processo:</strong> Lavado</li>
+                    <li><strong>Terreiro:</strong> Suspenso e Coberto</li>
+                    <li><strong>Colheita:</strong> Seletiva</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+                </ul>
+               
             </p>
         </section>
-        <section>
+        <section class="imagem" id="img01">
             <h2>
-                Titulo
+                Bourbon Amarelo
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit voluptatibus dolorum iure deserunt autem labore quod necessitatibus harum, cumque cupiditate aperiam neque, at ea alias possimus nobis quia dolore?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus odit eligendi ipsum atque nulla? Incidunt nostrum placeat suscipit maxime illo, reprehenderit assumenda, obcaecati vel aspernatur officia temporibus, odit ab inventore!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia expedita culpa itaque labore? Saepe nulla eum commodi! Saepe aliquid ab consectetur consequatur excepturi velit aliquam sit provident magnam cum.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis porro explicabo, fugit, itaque voluptatibus cum exercitationem corporis consectetur quas alias minima quidem. Qui quo exercitationem reprehenderit minus asperiores? Animi, minus!
+            <p>
+                O café Bourbon Amarelo é uma variedade exclusiva cultivada com carinho e dedicação pela produtora Simone Carneiro de Morais, no Sítio Santa Quitéria, na Serra da Mantiqueira, Minas Gerais. Esse café de alta qualidade oferece um sabor único e uma experiência culinária inesquecível. Cultivado de forma sustentável, o café Bourbon Amarelo é valorizado pela sua qualidade excepcional, tornando-se uma escolha especial para os amantes da bebida. Desfrute desse café delicioso e aprecie o cuidado e a dedicação dedicados a cada xícara.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 87 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Pêssegos caramelizados, aroma de chocolate com rapadura. Acidez levemente cítrica, corpo médio, doçura intensa e finalização longa e agradável.</li>
+                    <li><strong>Produtor:</strong> Simone Carneiro de Morais</li>
+                    <li><strong> Sítio:</strong> Santa Quitéria</li>
+                    <li><strong>Região:</strong> Cambuquira / MG - Serra da Mantiqueira</li>
+                    <li><strong>Altitude:</strong> 1100m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Suspenso e Coberto</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+                </ul>                
+            </p>
+       
+            <h2>
+                Bourbon Vermelho
+            </h2>
+            <p>
+                Produzimos cafés especiais de alta qualidade, dedicando cuidado e paixão em cada grão. Nossa fazenda é conhecida por oferecer uma experiência única aos amantes do café. Buscamos constantemente aperfeiçoar nossos cafés, explorando variedades e técnicas de cultivo. Levamos nosso café para diferentes países e atendemos o mercado interno. Honramos o legado familiar, dedicando-nos a oferecer cafés excepcionais. Desfrute do resultado de nossa dedicação em cada xícara de café.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong></strong>Pontuação:</strong> 87 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Doce, caramelo, frutas secas, acidez cítrica, corpo delicado e finalização surpreendente</li>
+                    <li><strong>Produtor:</strong> Willer e Giane Maria de Carvalho</li>
+                    <li><strong>Sítio:</strong> Nossa Senhora Aparecida</li>
+                    <li><strong>Região:</strong> São Gonçalo do Sapucaí / MG - Mantiqueira de Minas</li>
+                    <li><strong>Altitude:</strong> 1200m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Concreto</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+
+                </ul>
             </p>
         </section>
-        <section>
+        <section class="normal">
             <h2>
-                Titulo
+                Catuaí Vermelho
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit voluptatibus dolorum iure deserunt autem labore quod necessitatibus harum, cumque cupiditate aperiam neque, at ea alias possimus nobis quia dolore?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus odit eligendi ipsum atque nulla? Incidunt nostrum placeat suscipit maxime illo, reprehenderit assumenda, obcaecati vel aspernatur officia temporibus, odit ab inventore!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia expedita culpa itaque labore? Saepe nulla eum commodi! Saepe aliquid ab consectetur consequatur excepturi velit aliquam sit provident magnam cum.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis porro explicabo, fugit, itaque voluptatibus cum exercitationem corporis consectetur quas alias minima quidem. Qui quo exercitationem reprehenderit minus asperiores? Animi, minus!
+            <p>
+                O Catuaí Vermelho é um café especial cultivado com carinho e cuidado pela produtora Inês da Vinci, na fazenda Santa Quitéria, no Sul de Minas. Possui uma torra perfeita, resultando em notas de chocolate e um equilíbrio ideal entre intensidade, corpo e acidez. Além disso, é cultivado de forma sustentável e colhido manualmente, garantindo qualidade superior. Ao degustar este café, você apreciará um sabor incrível e estará apoiando a agricultura local e sustentável. Adquira agora o melhor café do Sul de Minas e desfrute em sua casa.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 84 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Chocolate</li>
+                    <li><strong>Produtor:</strong> Inês Vinci</li>
+                    <li><strong>Sítio:</strong> Santa Quiteria</li>
+                    <li><strong>Região:</strong> Lambari/ MG - Sul de Minas</li>
+                    <li><strong>Altitude:</strong> 1050m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Cimento</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+
+                </ul>
+            </p>
+            <h2>
+                Catuaí Amarelo
+            </h2>  
+            <p>
+                O café Catuaí Amarelo é cultivado com carinho e dedicação pela produtora Heleni Gorgulho de Castro, no sítio São Luiz, no Sul de Minas. Essa região é conhecida por suas condições climáticas favoráveis ao cultivo de café de alta qualidade. Heleni segue práticas de agricultura sustentável e cuida do solo e das plantas com atenção, resultando em um café de sabor único. Cada safra é colhida com responsabilidade, garantindo a qualidade do café Catuaí Amarelo. Experimente essa deliciosa variedade produzida por Heleni Gorgulho de Castro e desfrute de uma experiência culinária memorável.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 86 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Bom corpo, cremoso com acidez cítrica equilibrada com sabor em caramelo retrogosto longo e doce</li>
+                    <li><strong>Produtor:</strong> Heleni Gorgulho de Castro</li>
+                    <li><strong>Sítio:</strong> São Luiz</li>
+                    <li><strong>Região:</strong> Carmo de Minas / MG - Sul de Minas</li>
+                    <li><strong>Altitude:</strong> 1200m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Suspenso e Coberto</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+
+                </ul>
             </p>
         </section>
-        <section>
+        <section class="imagem" id="img02">
             <h2>
-                Titulo
+                Catucaí Amarelo Orgânico
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit voluptatibus dolorum iure deserunt autem labore quod necessitatibus harum, cumque cupiditate aperiam neque, at ea alias possimus nobis quia dolore?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus odit eligendi ipsum atque nulla? Incidunt nostrum placeat suscipit maxime illo, reprehenderit assumenda, obcaecati vel aspernatur officia temporibus, odit ab inventore!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia expedita culpa itaque labore? Saepe nulla eum commodi! Saepe aliquid ab consectetur consequatur excepturi velit aliquam sit provident magnam cum.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis porro explicabo, fugit, itaque voluptatibus cum exercitationem corporis consectetur quas alias minima quidem. Qui quo exercitationem reprehenderit minus asperiores? Animi, minus!
+            <p>
+                O Catucaí Amarelo orgânico é uma variedade de café cultivada com cuidado e dedicação pela produtora Marcia de Jesus Souza Borges, em Nossa Senhora Aparecida, na Mantiqueira de Minas. Esse café de alta qualidade é colhido com responsabilidade, resultando em uma experiência única e inesquecível. Com seu sabor e pontuação excepcionais, esse café especial oferece uma experiência culinária de qualidade. Além disso, é produzido de forma sustentável, sem o uso de agrotóxicos, contribuindo para um futuro mais saudável e sustentável.
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 86 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Cítrico de Maracujá, Salada de Frutas, Tutti frutti. Acidez Alcoólica Cítrica, doçura marcante. Corpo Licoroso.</li>
+                    <li><strong>Produtor:</strong> Marcia de Jesus Souza Borges</li>
+                    <li><strong>Sítio:</strong> Nossa Senhora Aparecida</li>
+                    <li><strong>Região:</strong> Campanha/ MG - Mantiqueira de Minas</li>
+                    <li><strong>Altitude:</strong> 1270m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Suspenso</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+                </ul>
+            </p>
+            <h2>
+                Moca
+            </h2>
+            <p>
+                Esse café é cultivado com amor e dedicação pela produtora Heloisa e seu esposo Marcelo, nas terras mineiras. Cada safra é de alta qualidade, sabor e pontuação. O processo de cultivo é feito com cuidado e atenção aos detalhes, garantindo um café de qualidade e sabor único. Experimente essa deliciosa variedade produzida por Heloisa e Marcelo e desfrute de um café especial
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong>Pontuação:</strong> 84,5 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Melaço, caramelo, ameixa com acidez cítrica leve, bom corpo e finalização surpreendente</li>
+                    <li><strong>Produtor:</strong> Heloisa e Marcelo</li>
+                    <li><strong>Sítio:</strong> Canta Galo</li>
+                    <li><strong>Região:</strong> Heliodora / MG - Mantiqueira de Minas</li>
+                    <li><strong>Altitude:</strong> 1250m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Cimento</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+
+                </ul>
+            </p>
+        </section>
+        <section class="normal">
+            <h2>
+                Mundo Novo
+            </h2>
+            <p>
+                <h3>Descrição</h3>
+                <ul>
+                    <li><strong> Pontuação:</strong> 87 SCA</li>
+                    <li><strong>Notas Sensoriais:</strong> Mascavo, mel, frutas vermelhas, toque floral. Acidez cítrica, corpo delicado e finalização marcante</li>
+                    <li><strong>Produtor:</strong> Willer e Giane de Carvalho Arantes</li>
+                    <li><strong>Chácara:</strong> Nossa Nossa Senhora</li>
+                    <li><strong>Região:</strong> Mantiqueira de Minas - São Gonçalo do Sapucaí/MG Aparecida</li>
+                    <li><strong>Altitude:</strong> 1200m</li>
+                    <li><strong>Processo:</strong> Natural</li>
+                    <li><strong>Terreiro:</strong> Suspenso concreto</li>
+                    <li><strong>Colheita:</strong> Seletiva Manual</li>
+                    <li><strong>Safra:</strong> 2022/2023</li>
+                </ul>
             </p>
         </section>
     </main>
