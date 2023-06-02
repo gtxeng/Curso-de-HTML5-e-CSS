@@ -29,6 +29,8 @@ header{
     background-size: cover;
     background-attachment: fixed;
     height: fit-content;
+    width: 800;
+    
 }
 
 header > nav > a{
@@ -45,6 +47,7 @@ header > h1{
 
 header > p{
     padding-bottom: 150px;
+    font-size: 1.5rem;  
 }
 
 header a, footer a{
